@@ -12,7 +12,7 @@ if (!process.env.DATABASE_URL || !process.env.SESSION_SECRET) {
 }
 
 const app = express();
-const port = process.env.PORT || __PORT__;
+const port = process.env.PORT || 3002;
 
 // Middleware to parse request bodies
 app.use(express.urlencoded({ extended: true }));
@@ -91,3 +91,4 @@ app.use((err, req, res, next) => {
 app.listen(port, () => {
   console.log(`Server running at http://localhost:${port}`);
 });
+

@@ -23,7 +23,7 @@ Action: Start the server using `npm start`
 Expected result: You should see the message "Connected to database" or similar
 
 ### Step 2
-Action: Open your web browser and visit http://localhost:__PORT__/
+Action: Open your web browser and visit http://localhost:3002/
 Expected result: Web page opens and you see a "Hello World" message with a contact form
 
 ### Step 3
@@ -32,3 +32,4 @@ Expected result: Form is submitted, page is reloaded and "Thank you" message is 
 ---end_of_example---
 
 If nothing needs to be tested for this task, instead of outputting the steps, just output a single word: DONE
+

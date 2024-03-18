@@ -342,7 +342,7 @@ class TestSchemaValidation:
     },
     {
       "description": "Create a simple front-end HTML page with CSS and JavaScript that includes input for typing messages and area for displaying messages.",
-      "user_review_goal": "Navigating to the root URL (http://localhost:__PORT__) should display the chat front-end with an input box and a message area."
+      "user_review_goal": "Navigating to the root URL (http://localhost:3002) should display the chat front-end with an input box and a message area."
     },
     {
       "description": "Set up socket.io on the back-end to handle websocket connections and broadcasting messages to the clients.",
@@ -554,3 +554,4 @@ The development process will include the creation of user stories and tasks, bas
         response = parse_agent_response(response, function_calls)
         assert_non_empty_string(response['plan'][0]['description'])
         assert_non_empty_string(response['plan'][0]['user_review_goal'])
+

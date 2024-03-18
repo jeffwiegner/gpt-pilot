@@ -133,7 +133,7 @@ All generated code will be stored in the folder `workspace` inside the folder na
 6. access the web terminal on `port 7681`
 7. `python main.py` (start GPT Pilot)
 
-This will start two containers, one being a new image built by the `Dockerfile` and a Postgres database. The new image also has [ttyd](https://github.com/tsl0922/ttyd) installed so that you can easily interact with gpt-pilot. Node is also installed on the image and port __PORT__ is exposed.
+This will start two containers, one being a new image built by the `Dockerfile` and a Postgres database. The new image also has [ttyd](https://github.com/tsl0922/ttyd) installed so that you can easily interact with gpt-pilot. Node is also installed on the image and port 3002 is exposed.
 
 
 # 🧑‍💻️ CLI arguments
@@ -226,3 +226,4 @@ To improve GPT Pilot, we are tracking some events from which you can opt out at 
 🌟 As an open-source tool, it would mean the world to us if you starred the GPT-pilot repo 🌟
 
 💬 Join [the Discord server](https://discord.gg/HaqXugmxr9) to get in touch.
+

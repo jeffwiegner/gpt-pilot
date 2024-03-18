@@ -34,7 +34,7 @@ This rule applies to the number of tasks you will create.
 Every {{ task_type }} should have different number of tasks depending on complexity. Think task by task and create the minimum number of tasks that are relevant for this specific {{ task_type }}.{% if task_type  == 'feature' %} If the feature is small, it is ok to have only 1 task.{% endif %} Here are some examples of apps with different complexity that can give you guidance on how many tasks you should create:
 
 Example #1:
-app description: "I want to create an app that will just say 'Hello World' when I open it on my localhost:__PORT__."
+app description: "I want to create an app that will just say 'Hello World' when I open it on my localhost:3002."
 number of tasks: 1-2
 
 Example #2:
@@ -62,3 +62,4 @@ Here is an example of good and bad task description:
 
 Rule #5
 {{ file_naming }}
+

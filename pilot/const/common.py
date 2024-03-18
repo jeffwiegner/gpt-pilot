@@ -56,7 +56,7 @@ EXAMPLE_PROJECT_DESCRIPTION = (
     "A simple webchat application in node/express using MongoDB. "
     "Use Bootstrap and jQuery on the frontend, for a simple, clean UI. "
     "Use socket.io for real-time communication between backend and frontend.\n\n"
-    "Visiting http://localhost:__PORT__/, users must first log in or create an account using "
+    "Visiting http://localhost:3002/, users must first log in or create an account using "
     "a username and a password (no email required).\n\n"
     "Once authenticated, on the home screen users see list of active chat rooms and a button to create a new chat. "
     "They can either click a link to one of the chat rooms which redirects them to `/<chat-id>/` "
@@ -79,3 +79,4 @@ EXAMPLE_PROJECT_DESCRIPTION = (
     "Anonymous users can't see or join any chat rooms, the can only log in or create an account. "
     "No moderation, filtering or any admin functionality is required. Keep everything else as simple as possible."
 )
+

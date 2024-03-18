@@ -32,10 +32,10 @@ TODO:
 - Specify each task as clear as possible:
   - Description
   - "Programmatic goal" which determines if the task can be marked as done.
-    eg: "server needs to be able to start running on a port __PORT__ and accept API request 
-         to the URL `http://localhost:__PORT__/ping` when it will return the status code 200"
+    eg: "server needs to be able to start running on a port 3002 and accept API request 
+         to the URL `http://localhost:3002/ping` when it will return the status code 200"
   - "User-review goal" 
-    eg: "run `npm run start` and open `http://localhost:__PORT__/ping`, see "Hello World" on the screen"
+    eg: "run `npm run start` and open `http://localhost:3002/ping`, see "Hello World" on the screen"
 
 
 ## Dev Ops
@@ -61,3 +61,4 @@ TODO:
 
 - Implement tasks assigned by tech lead
 - Modular code, TDD
+
