@@ -342,7 +342,7 @@ class TestSchemaValidation:
     },
     {
       "description": "Create a simple front-end HTML page with CSS and JavaScript that includes input for typing messages and area for displaying messages.",
-      "user_review_goal": "Navigating to the root URL (http://localhost:__port__) should display the chat front-end with an input box and a message area."
+      "user_review_goal": "Navigating to the root URL (http://localhost:__PORT__) should display the chat front-end with an input box and a message area."
     },
     {
       "description": "Set up socket.io on the back-end to handle websocket connections and broadcasting messages to the clients.",

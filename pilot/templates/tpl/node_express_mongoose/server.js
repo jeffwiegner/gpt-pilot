@@ -12,7 +12,7 @@ if (!process.env.DATABASE_URL || !process.env.SESSION_SECRET) {
 }
 
 const app = express();
-const port = process.env.PORT || __port__;
+const port = process.env.PORT || __PORT__;
 
 // Middleware to parse request bodies
 app.use(express.urlencoded({ extended: true }));
