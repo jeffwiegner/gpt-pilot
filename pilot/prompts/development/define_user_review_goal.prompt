@@ -23,7 +23,7 @@ Action: Start the server using `npm start`
 Expected result: You should see the message "Connected to database" or similar
 
 ### Step 2
-Action: Open your web browser and visit http://localhost:3000/
+Action: Open your web browser and visit http://localhost:__port__/
 Expected result: Web page opens and you see a "Hello World" message with a contact form
 
 ### Step 3

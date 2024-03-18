@@ -26,7 +26,7 @@ services:
             dockerfile: Dockerfile
         ports:
             - "7681:7681"
-            - "3000:3000"
+            - "__port__:3000"
         depends_on:
             postgres:
                 condition: service_healthy
